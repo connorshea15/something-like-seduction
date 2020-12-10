@@ -1,0 +1,19 @@
+{
+  "name": "something-like-seduction",
+  "version": "1.0.0",
+  "description": "A landing page for all the ravenous fans of the famed band; Something Like Seduction.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connorshea15/something-like-seduction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connorshea15/something-like-seduction/issues"
+  },
+  "homepage": "https://github.com/connorshea15/something-like-seduction#readme"
+}
