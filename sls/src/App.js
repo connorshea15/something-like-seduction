@@ -1,46 +1,14 @@
 import React, { useState } from 'react';
-import { Drawer, Button } from 'antd';
-import { MenuOutlined } from '@ant-design/icons';
+import Header from "./components/Header";
+
 import './App.css';
 
 function App() {
-  const [state, setState] = useState({ visible: false, placement: 'right' });
 
-  const showDrawer = () => {
-    setState({
-      visible: true,
-    });
-  };
-
-  const onClose = () => {
-    setState({
-      visible: false,
-    });
-  };
-
-  const onChange = e => {
-    setState({
-      placement: e.target.value,
-    });
-  };
 
   return (
     <div className="App">
-      <Button type="primary" onClick={showDrawer}>
-        <MenuOutlined />
-      </Button>
-      <Drawer
-          title="Basic Drawer"
-          placement={state.placement}
-          closable={false}
-          onClose={onClose}
-          visible={state.visible}
-          key={state.placement}
-      >
-        <p>Music</p>
-        <p>Other Stuff</p>
-        <p>More other stuff</p>
-      </ Drawer>
+      <Header />
     </div>
   );
 }
