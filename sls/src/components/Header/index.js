@@ -5,12 +5,20 @@ function Header() {
 
 
     return (
-        <header>
-            <div>
+        <header className="bg-dark">
+            <div className="d-flex flex-row flex-wrap align-items-center">
+                <div className="text-center">
                     <h1>
-                        Something Like Seduction
+                        Something
                     </h1>
-                    <Navigation></Navigation>
+                    <h1>
+                        Like
+                    </h1>
+                    <h1>
+                        Seduction
+                    </h1>
+                </div>
+                <Navigation className="text-right"></Navigation>
             </div>
         </header>
     );
