@@ -2,6 +2,7 @@ import React from 'react';
 import spotifyIcon from "../../assets/Spotify_Icon.png";
 import instagramIcon from "../../assets/Instagram_Icon.png";
 import facebookIcon from "../../assets/Facebook_Icon.png";
+// add a little something to commit
 
 function Socials() {
 
