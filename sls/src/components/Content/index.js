@@ -12,7 +12,7 @@ function Content() {
   return (
     <div className="p-5">
         <Spin spinning={state.loading} size="large">
-            <div className="embed-responsive embed-responsive-16by9 mx-auto w-75">
+            <div className="embed-responsive embed-responsive-16by9 mx-auto">
                 <iframe 
                     className="embed-responsive-item text-center"
                     src="https://www.youtube.com/embed/C3RnqftoPNo" 

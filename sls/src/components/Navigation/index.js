@@ -4,12 +4,6 @@ import { MenuOutlined } from '@ant-design/icons';
 
 function Navigation() {
 
-    /*const {
-        sections = [],
-        currentSection,
-        setCurrentSection
-    } = props; */
-
     const [state, setState] = useState({ visible: false, placement: 'right' });
 
     const showDrawer = () => {
@@ -30,10 +24,9 @@ function Navigation() {
       });
     };
 
-
     return (
         <div>
-            <Button type="primary" onClick={showDrawer}>
+            <Button onClick={showDrawer}>
                 <MenuOutlined />
             </Button>
             <Drawer
