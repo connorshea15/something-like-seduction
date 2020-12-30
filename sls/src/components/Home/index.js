@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Spin } from 'antd';
 
-function Content() {
+function Home() {
 
     const [state, setState] = useState({ loading: true });
 
@@ -28,4 +28,4 @@ function Content() {
   );
 };
 
-export default Content;
+export default Home;

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Drawer, Button } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
 
@@ -37,9 +38,9 @@ function Navigation() {
                 visible={state.visible}
                 key={state.placement}
             >
-                <p>Music</p>
-                <p>Other Stuff</p>
-                <p>More other stuff</p>
+                <Link onClick={onClose} to="/about">About</Link>
+                <Link onClick={onClose} to="/music">Music</Link>
+                <Link onClick={onClose} to="/luna">Luna</Link>
             </ Drawer>
       </div>
     );
